@@ -1,4 +1,4 @@
-#Swift calling C header
+#Calling a C header from Swift (example) 
 
 I could not find a simple example of Swift code calling a C header. So I made one.
 
