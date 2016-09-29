@@ -19,3 +19,12 @@ swift build
 - In your Swift code, just do ``import SomeC`` and then you can call the C function as in ``SomeC.sayHello()``.
 
 That's it!
+
+## For XCode users (Mac only)
+
+```bash
+$ swift package generate-xcodeproj
+generated: ./SwiftCallingCHeader.xcodeproj
+$ open ./SwiftCallingCHeader.xcodeproj
+```
+
