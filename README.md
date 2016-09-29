@@ -8,6 +8,12 @@ Usage:
 swift build
 .build/debug/SomeSwift
 ```
+or
+
+```
+swift build --configuration release
+.build/release/SomeSwift
+```
 
 ## Explanation:
 
