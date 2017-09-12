@@ -26,7 +26,7 @@ swift build --configuration release
 
 That's it!
 
-## For XCode users (Mac only)
+## For Xcode users (Mac only)
 
 ```bash
 $ swift package generate-xcodeproj
