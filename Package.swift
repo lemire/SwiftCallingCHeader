@@ -1,8 +1,10 @@
+// swift-tools-version: 5.9
 import PackageDescription
 
 let package = Package(
     name: "SwiftCallingCHeader",
     targets: [
-        Target(name: "SomeSwift", dependencies: ["SomeC"])
+        .target(name: "SomeC", dependencies: []),
+        .executableTarget(name: "SomeSwift", dependencies: ["SomeC"])
     ]
 )
