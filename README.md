@@ -23,7 +23,7 @@ swift build --configuration release
 - Then establish a dependency in your ``Package.swift`` file : ``targets: [Target(name: "Bitset", dependencies: ["SwiftBitsetC"]),]``.
 - In your C package, add an include directory with your header file. If you have C source code, put it directly in your C code package directory (``Sources/SomeC``). You need at least one source file (``somec.c``).
 - In your Swift code, just do ``import SomeC`` and then you can call the C function as in ``SomeC.sayHello()``.
-- Offcial apple document about this topic: https://www.swift.org/documentation/articles/wrapping-c-cpp-library-in-swift.html
+- Official apple document about this topic: https://www.swift.org/documentation/articles/wrapping-c-cpp-library-in-swift.html
 
 That's it!
 
