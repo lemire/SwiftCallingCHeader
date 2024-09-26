@@ -3,7 +3,7 @@
 
 
 void sayhello() {
-  printf("hello world");
+  printf("hello world\n");
 }
 
 int multiplyByTwo(int x) {
